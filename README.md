@@ -3,4 +3,4 @@ With the 2024 election heating up, I have decided to create a simulation of how 
 ## Global Final Variables
 This section contains the 4 global variables that will never change throughout the entirety of this simulation.
 1. states
- * List of all 50 states as Strings
+  * List of all 50 states as Strings
