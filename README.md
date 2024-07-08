@@ -62,7 +62,7 @@ Here are the variables that will change as the simulations proceed:
             * Winner: The winner of the simulated election
             * Trump_Electoral_Votes: The total number of electoral votes Donald Trump earned in this simulated election
 ### Conclusion
-The simulation is currently in progress as of July 8, 2024. The entire simulation should take about 3 days. At that point, all recorded data will be uploaded. For now, here is just a start of the election_scores as a csv file. Email me at [micpowers98@gmail.com](micpowers98@gmail.com) and send me feedback on how this could be improved.
+The simulation is currently in progress as of July 8, 2024. The entire simulation should take about 3 days. At that point, all recorded data will be uploaded. For now, here is just a start of the election_scores as a csv file. Email me at <micpowers98@gmail.com> and send me feedback on how this could be improved.
             * Biden_Electoral_Votes: The total number of electoral votes Joe Biden earned in this simulated election
             * Trump_Polling_Error: Donald Trump's polling error made in this simulated election
             * Biden_Polling_Error: Joe Biden's polling error made in this simulated election
