@@ -28,3 +28,28 @@ Here are the variables that will change as the simulations proceed:
     * List of DataFrames showing the details of every state, who won, how many votes did each candidate get, what percent of the vote did they receive, and how many electoral votes were casted. Each simulation has reported results that are added into a DataFrame and then added into this list of DataFrames. Once all election simulations are complete, further analysis will be completed on this.
 5. combined_national_results
     * List of DataFrames showing the summarized national results of the simulated election. Each DataFrame contains how many electoral votes each candidate earned, how many total votes each candidate received nationwide, and what percent of the popular vote each candidate received.
+6. election_scores
+    * DataFrame providing a very quick way to see who won each simulated election with errors for each candidate.
+### Functions
+1. format_with_commas
+    * Convert all numbers in DataFrames to numbers with commas to make them easier to read.
+2. set_state_polls
+    * Set the variable state_polls to the baseline value plus trump error and biden error. This function creates variability and accounts for errors when constructing public polls.
+3. reset_variables
+    * Resets all dynamic variables to initial values after a full election of all 50 states plus District of Columbia is completed.
+4. get_individual_state_votes
+    * Print the current state that votes are being casted and counted. Set trump_state_votes and biden_state_votes to 0. Loop through all registered voters in the state. Assign a voter their preferred candidate based on a randint between 1 and the sum of the current state polling numbers. Assign the voter an actively voting number between 1 and 100. Check if the voter active status is less than or equal to 75. If yes, they will cast a ballot. If their choice is less than or equal to Trump's popularity. If yes, Trump's state vote, popular vote, and state total votes count increase by 1. If the voter's choice is greater than Trump's polling popularity, Joe Biden's state vote, popular vote, and state total vote is increased by 1. After all voters have completed, the votes are tallied. If Trump has more votes, his electoral votes increase by the number of electoral votes the state has and Trump's states won list adds the current state to his list. If Biden has more votes, then Biden's electoral votes increases by the number of electoral votes the state has and Biden's states won list adds the current state to his list. If the vote count is a tie, a new vote is casted between the two candidates.
+5. get_state_results_df
+    * Creating the DataFrame to display the details of each state in this simulated election. The DataFrame contains 7 columns:
+        - State: The name of the state
+        - Electoral_Votes: The number of electoral votes the state offers
+        - Winner: The name of the winning candidate
+        - Trump_Vote_Count: The number of votes Donald Trump earned in the state
+        - Biden_Vote_Count: The number of votes Joe Biden earned in this state
+        - Trump_Vote_Percent: The percentage of votes Donald Trump earned in this state
+        - Biden_Vote_Percent: The percentage of votes Joe Biden earned in this state
+6. get_national_results_df
+    * Returns 2 items in a list that display slightly different summaries of the data
+        - national_results_df is a DataFrame with 6 columns
+            * Trump_Electoral_Votes: The total number of electoral votes Donald Trump earned in this simulated election
+            *
