@@ -52,4 +52,16 @@ Here are the variables that will change as the simulations proceed:
     * Returns 2 items in a list that display slightly different summaries of the data
         - national_results_df is a DataFrame with 6 columns
             * Trump_Electoral_Votes: The total number of electoral votes Donald Trump earned in this simulated election
-            *
+            * Biden_Electoral_Votes: The total number of electoral votes Joe Biden earned in this simulated election
+            * Trump_Total_Votes: The total number of votes that Donald Trump earned nationwide in this simulated election
+            * Biden_Total_Votes: The total number of votes that Joe Biden earned nationwide in this simulated election
+            * Trump_Vote_Percent: The percentage of votes Donald Trump earned in nationwide in this simulated election
+            * Biden_Vote_Percent: The percentage of votes Joe Biden earned in this simulated election
+            * This DataFrame is added to the combined_national_results list and then reset to None after each simulated election
+        - election_scores is a DataFrame with 6 columns
+            * Winner: The winner of the simulated election
+            * Trump_Electoral_Votes: The total number of electoral votes Donald Trump earned in this simulated election
+            * Biden_Electoral_Votes: The total number of electoral votes Joe Biden earned in this simulated election
+            * Trump_Polling_Error: Donald Trump's polling error made in this simulated election
+            * Biden_Polling_Error: Joe Biden's polling error made in this simulated election
+            * Round_Number: The iteration number of this election cycle. Each set of polling errors for each candidate is repeated 10 times.
