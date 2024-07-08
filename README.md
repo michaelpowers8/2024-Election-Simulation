@@ -3,4 +3,8 @@ With the 2024 election heating up, I have decided to create a simulation of how 
 ## Global Final Variables
 This section contains the 4 global variables that will never change throughout the entirety of this simulation.
 1. states
-  * List of all 50 states as Strings
+     * List of all 50 states as Strings
+2. electoral_votes
+     * Dictionary where the key is the name of the state and the item is the number of electoral votes that state holds
+3. registered_voters
+     * Dictionary where the key is the name of the state and the item is the number of registered voters according to [link]([http://example.com](https://www.kff.org/other/state-indicator/number-of-voters-and-voter-registration-in-thousands-as-a-share-of-the-voter-population/?currentTimeframe=0&sortModel=%7B%22colId%22:%22Location%22,%22sort%22:%22asc%22%7D) "Number of Voters and Voter Registration as a Share of the Voter Population").
