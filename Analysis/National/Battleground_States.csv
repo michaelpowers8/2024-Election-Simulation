@@ -1,8 +1,10 @@
 State,count,unique,top,freq
-Arizona,389,2,Trump,270
-Maine,389,2,Biden,243
-Michigan,389,2,Biden,278
-Nevada,389,2,Trump,308
-New Jersey,389,2,Biden,243
-Pennsylvania,389,2,Trump,227
-Virginia,389,2,Biden,279
+Arizona,585,2,Trump,460
+Maine,585,2,Biden,305
+Michigan,585,2,Biden,356
+Minnesota,585,2,Biden,467
+New Hampshire,585,2,Biden,466
+New Jersey,585,2,Biden,303
+Pennsylvania,585,2,Trump,405
+Virginia,585,2,Biden,361
+Wisconsin,585,2,Biden,415
