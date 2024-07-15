@@ -2,6 +2,7 @@ State,count,unique,top,freq
 Alabama,810,1,Trump,810
 Alaska,810,1,Trump,810
 Arkansas,810,1,Trump,810
+Georgia,810,2,Trump,788
 Idaho,810,1,Trump,810
 Indiana,810,1,Trump,810
 Iowa,810,1,Trump,810
@@ -13,6 +14,7 @@ Missouri,810,1,Trump,810
 Montana,810,1,Trump,810
 Nebraska,810,1,Trump,810
 North Dakota,810,1,Trump,810
+Ohio,810,2,Trump,792
 Oklahoma,810,1,Trump,810
 South Carolina,810,1,Trump,810
 South Dakota,810,1,Trump,810
